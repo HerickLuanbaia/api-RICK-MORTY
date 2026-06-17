@@ -1,0 +1,86 @@
+.wrapImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 400px;
+}
+
+.wrapInputs {
+    background-color: rgba(0, 0, 0, 0.651);
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 6vh auto;
+    gap: 2vh;
+}
+
+.wrapInputs label {
+    color: #14db6e;
+    font-weight: bold;
+}
+
+.wrapInputs input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #333;
+}
+
+.wrapInputs input::placeholder {
+    color: #bdbdbd;
+}
+
+.wrapInputs button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff88;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wrapInputs button:hover {
+    background-color: #00cc6a;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+}
+
+.card img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #00ff88;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #e0e0e0;
+    margin: 5px 0;
+}
